@@ -1,0 +1,75 @@
+.TableBooking{
+    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 40px 150px;
+    background-color: rgba(229, 229, 229, 0.523);
+    
+    
+    
+
+    .Numberofpeople{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin: 10px 70px;
+
+        label{
+            margin-right: 10px;
+        }
+        
+
+        
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 70px;
+
+
+        select{
+            font-size: 15px;
+            padding: 10px 50px;
+            border-radius: 15px;
+            cursor: pointer;
+            
+        }
+    }
+    .Time{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 70px;
+
+        input{
+            font-size: 15px;
+            padding: 10px 45px;
+            border-radius: 15px;
+            border: 1px solid gray;
+            text-align: center;
+            cursor: pointer;
+            
+            
+        }
+
+    }
+    h2{
+            font-size: 24px;
+            margin-right: 250px;
+            color: rgb(89, 19, 19);
+    }
+    .inputItem{
+        display: flex;
+        gap: 15px;
+        font-size: 15px;
+
+        
+    }
+    
+  
+    
+} 

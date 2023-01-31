@@ -1,0 +1,56 @@
+.navbar{
+    height: 80px; 
+    background-color: #340808;
+    color: #C7C59C;
+    position: sticky;
+    top: 0;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding:0px 40px ;
+        flex-wrap: wrap;
+
+      
+
+        .left{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            z-index: 2;
+            
+
+            img{
+                width: 100%;
+                height: 140px;
+                
+            }
+        }
+
+        .right{
+            display: flex;
+            overflow: auto;
+            
+            
+            .item{
+                display: flex;
+                margin-top: -50px;
+                align-items: center;
+                justify-content: center;
+                font-size: 19px;
+                margin-right: 40px;
+                font-weight: 650;
+                text-indent: 5px;
+                
+                
+            }
+            
+        }
+
+
+       
+        
+    }
+    
+}
