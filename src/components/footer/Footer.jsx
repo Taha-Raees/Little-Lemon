@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
       <div className="bottom">
         
-          <span className="logo"><img src="/images/Asset 20@4x.png " alt="" /></span>
+          <span className="logo"><img src="/Little-Lemon/images/Asset 20@4x.png " /></span>
           <span className="copyright">
             © Copyright 2023. All Rights Reserved
           </span>

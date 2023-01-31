@@ -6,7 +6,7 @@ const MainDisplay = () => {
   return (
     <div className="mainDisplay">
         <div className="disimg">
-        <img src="/images/main.png" alt=''/>
+        <img src="/Little-Lemon/images/main.png" alt=''/>
         </div>
         <div className="aboutus">
             <h1>Our dishes are unique compositions</h1>
