@@ -16,7 +16,7 @@ const App = () => {
     <div className="app">
       <ScrollToTop/>
       <Navbar />
-      <Routes basename="/Little-Lemon">
+      <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
         <Route path="/reservation" element={<Reservation />}></Route>
