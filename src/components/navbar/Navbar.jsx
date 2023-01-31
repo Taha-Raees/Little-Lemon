@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="wrapper">
         <div className="left">
-        <Link className ="link" to="/"><img src="./Little-Lemon/images/c2.png" alt='' /></Link>
+        <img src="/Little-Lemon/images/c2.png" alt='' />
         </div>
         <div className="right">
         <div className="item">
