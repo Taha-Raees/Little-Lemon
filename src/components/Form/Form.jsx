@@ -38,7 +38,7 @@ const Form = () => {
             </div>
             <div className="body">{PageDisplay()}</div>
             <div className="footers">
-                <button disabled={page===0} hidden={page===2}
+                <button  hidden={page===2 || page===0}
                 onClick={() => {setPage((currItem) => currItem - 1);}}>Prev</button>
                 <button 
                 hidden={page===2}
