@@ -19,7 +19,7 @@ const MainDisplay = () => {
             </div>
         </div>
         <div className="welcome">
-            <span>WHETHER ALONE, AS A COUPLE, OR WITH THE WHOLE FAMILY, THERE IS SOMETHING FOR EVERY PALATE HERE.</span>
+            <h2>WHETHER ALONE, AS A COUPLE, OR WITH THE WHOLE FAMILY, THERE IS SOMETHING FOR EVERY PALATE HERE.</h2>
             <hr />
             <h1>Fine cuisine in an extraordinary ambience</h1>
         </div>

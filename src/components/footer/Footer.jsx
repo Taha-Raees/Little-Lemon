@@ -13,13 +13,12 @@ const Footer = () => {
           </span>
       </div>
       <div className="top">
-        <div className="item">
+        <div className="item1">
           <h1>Links</h1>
           <Link className ="link" to="/"><span>Home</span></Link>
           <Link className ="link" to="/menu"><span>Menu</span></Link>
           <Link className ="link" to="/"><span>Drinks</span></Link>
           <Link className ="link" to="/reservation"><span>Reservation</span></Link>
-          <span>Cookies</span>
 
         </div>
         <div className="item">
