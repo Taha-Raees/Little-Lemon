@@ -5,7 +5,8 @@ const Menu = () => {
   return (
     <div className="Menu">
       
-     <div className="back"></div>
+     <div className="back">
+     </div>
       <div className="wrapper">
         <div className="title">
           <h1>Soups, appetizers and entrées</h1>

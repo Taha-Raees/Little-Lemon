@@ -1,4 +1,4 @@
-.Menu{  
+.Menu{ 
 
     .wrapper{
       
@@ -7,18 +7,22 @@
             padding: 100px 50px;
             background-color: rgba(242, 242, 242, 0.426);
             margin: 40px 150px;
+             @media only screen and (max-width: 600px){
+        
+             margin: 40px 0px;
+    }
     
             h1{
                 font-size: 30px;
                 font-weight: 700;
-                margin-left: 100px;
+                margin-left: 6vw;
                 
                 color: #380d0d; 
             }
             p{
                 font-size: 20px;
                 font-weight: 300;
-                margin-left: 100px;
+                margin-left: 6vw;
             }
         }
         .card{
@@ -30,8 +34,8 @@
             
 
             hr{
-                margin: 20px 40px;
-                width: 85vw;
+                margin: 20px 4vw;
+                width: 82vw;
                 border: 1px solid rgba(58, 20, 20, 0.349);
             }
             
@@ -40,7 +44,7 @@
                 justify-content: space-between;
                 align-items: center;
                 margin-bottom: 20px;
-                margin-left: 40px;
+                margin-left: 4vw;
                 
                 h2{
                     flex: 4;
@@ -55,7 +59,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-left: 40px;
+                 margin-left: 4vw;
                 
                 
                 
@@ -88,5 +92,6 @@
         position: sticky;
         top: 0;
         z-index: -2; 
+      
     }
 }
